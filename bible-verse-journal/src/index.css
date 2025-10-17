@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global background + typography */
+body {
+  @apply min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 
+         dark:from-gray-800 dark:to-gray-900 
+         text-gray-900 dark:text-gray-100 font-serif leading-relaxed;
+}
+
+/* Word-by-word fade-in animation */
+.animate-word {
+  display: inline-block;
+  opacity: 0;
+  margin-right: 0.4em;
+  animation: fadeInWord 0.25s ease-in-out forwards;
+}
+
+@keyframes fadeInWord {
+  0%   { opacity: 0; transform: translateY(6px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Verse cards + section spacing */
+section {
+  @apply bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm 
+         rounded-xl shadow-md p-4 space-y-4 transition;
+}
