@@ -59,9 +59,9 @@ npm install
 node server.js
 \`\`\`
 The backend runs on:  
-👉 http://localhost:3000
+http://localhost:3000
 
-#### 💻 Frontend (React)
+#### Frontend (React)
 Open a new terminal:
 \`\`\`bash
 cd ..
@@ -69,7 +69,7 @@ npm install
 npm run dev
 \`\`\`
 The frontend runs on:  
-👉 http://localhost:5173/journal
+http://localhost:5173/journal
 
 ---
 
@@ -90,7 +90,7 @@ Testing Notes
 
 ---
 
-👤 Author
+Author
 **Mohammed Faiz**  
-📍 Concordia University Wisconsin — *CSC 6210 Final Project (Full Stack Development)*  
+Concordia University Wisconsin — *CSC 6210 Final Project (Full Stack Development)*  
 GitHub: [famo2414-art](https://github.com/famo2414-art)
