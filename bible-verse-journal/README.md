@@ -1,22 +1,22 @@
-## 📖 Bible Verse Journal — Final Full-Stack Project
+Bible Verse Journal — Final Full-Stack Project
 
-### 🧩 Overview  
+Overview:
 This project is a full-stack web application that allows users to **fetch, save, and manage Bible verses**, with support for personal reflections and search history.  
 It demonstrates **frontend–backend integration**, **CRUD operations**, and a **modern responsive UI** built with React and TailwindCSS.
 
 ---
 
-### ⚙️ Features
-✅ Fetch random or specific Bible verses using the NET Bible API  
-✅ Search and view verses dynamically  
-✅ Save verses with personal notes  
-✅ Edit or delete saved reflections (CRUD)  
-✅ View search history with timestamps  
-✅ Mobile-friendly dark mode interface  
+Features:
+.Fetch random or specific Bible verses using the NET Bible API  
+.Search and view verses dynamically  
+.Save verses with personal notes  
+.Edit or delete saved reflections (CRUD)  
+.View search history with timestamps  
+.Mobile-friendly dark mode interface  
 
 ---
 
-### 🛠️ Tech Stack
+Tech Stack:
 **Frontend:** React (Vite), Tailwind CSS  
 **Backend:** Node.js, Express.js  
 **Storage:** JSON files (`verses.json`, `history.json`)  
@@ -24,7 +24,7 @@ It demonstrates **frontend–backend integration**, **CRUD operations**, and a *
 
 ---
 
-### 🧾 Directory Structure
+Directory Structure
 \`\`\`
 bible-verse-journal/
 ├── server/
@@ -50,9 +50,9 @@ bible-verse-journal/
 
 ---
 
-### 🧠 How to Run Locally
+How to Run Locally:
 
-#### 🖥️ Backend (Express API)
+Backend (Express API)
 \`\`\`bash
 cd server
 npm install
@@ -69,11 +69,11 @@ npm install
 npm run dev
 \`\`\`
 The frontend runs on:  
-👉 http://localhost:5173
+👉 http://localhost:5173/journal
 
 ---
 
-### 🔄 CRUD Demonstration
+CRUD Demonstration:
 | Action | Endpoint | Description |
 |--------|-----------|-------------|
 | **Create** | \`POST /api/verses\` | Save a new verse and note |
@@ -83,14 +83,14 @@ The frontend runs on:
 
 ---
 
-### 🧪 Testing Notes
+Testing Notes
 - Ensure both servers are running (backend and frontend).  
 - All data persists locally in JSON files (\`verses.json\`, \`history.json\`).  
 - Try fetching a verse (e.g., John 3:16), saving it, editing the note, deleting, and viewing search history.
 
 ---
 
-### 👤 Author
+👤 Author
 **Mohammed Faiz**  
 📍 Concordia University Wisconsin — *CSC 6210 Final Project (Full Stack Development)*  
 GitHub: [famo2414-art](https://github.com/famo2414-art)
